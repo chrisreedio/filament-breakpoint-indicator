@@ -45,6 +45,11 @@
             "ChrisReedIO\\BreakpointBadge\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "ChrisReedIO\\BreakpointBadge\\Tests\\": "tests/"
+        }
+    },
     "scripts": {
         "post-autoload-dump": "@php ./vendor/bin/testbench package:discover --ansi",
         "analyse": "vendor/bin/phpstan analyse",
